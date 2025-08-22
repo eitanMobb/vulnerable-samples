@@ -1,0 +1,164 @@
+[
+  {
+    "id": "96b97b93-faa1-4f28-bddd-7654b6def7eb",
+    "userId": "4b611f29-7af7-4e94-8419-8cea053a9242",
+    "movieId": "A002",
+    "movieTitle": "Behind the Green Door",
+    "rentDate": "2025-08-21T21:45:25.132Z",
+    "dueDate": "2025-08-28T21:45:25.132Z",
+    "returned": true,
+    "rewound": false,
+    "returnDate": "2025-08-21T21:48:33.801Z"
+  },
+  {
+    "id": "rental-001",
+    "userId": "u001-sample-user-1",
+    "movieId": "1",
+    "movieTitle": "Back to the Future",
+    "rentDate": "2024-12-20T10:00:00.000Z",
+    "dueDate": "2024-12-27T10:00:00.000Z",
+    "returned": true,
+    "rewound": false,
+    "returnDate": "2024-12-29T15:30:00.000Z"
+  },
+  {
+    "id": "rental-002",
+    "userId": "u001-sample-user-1",
+    "movieId": "3",
+    "movieTitle": "Ghostbusters",
+    "rentDate": "2025-01-05T14:00:00.000Z",
+    "dueDate": "2025-01-12T14:00:00.000Z",
+    "returned": true,
+    "rewound": false,
+    "returnDate": "2025-01-12T18:45:00.000Z"
+  },
+  {
+    "id": "rental-003",
+    "userId": "u001-sample-user-1",
+    "movieId": "8",
+    "movieTitle": "The Terminator",
+    "rentDate": "2025-02-14T09:30:00.000Z",
+    "dueDate": "2025-02-21T09:30:00.000Z",
+    "returned": true,
+    "rewound": true,
+    "returnDate": "2025-02-23T11:00:00.000Z"
+  },
+  {
+    "id": "rental-004",
+    "userId": "u001-sample-user-1",
+    "movieId": "16",
+    "movieTitle": "Top Gun",
+    "rentDate": "2025-03-10T16:20:00.000Z",
+    "dueDate": "2025-03-17T16:20:00.000Z",
+    "returned": true,
+    "rewound": false,
+    "returnDate": "2025-03-17T14:30:00.000Z"
+  },
+  {
+    "id": "rental-005",
+    "userId": "u001-sample-user-1",
+    "movieId": "25",
+    "movieTitle": "Gremlins",
+    "rentDate": "2025-08-15T12:00:00.000Z",
+    "dueDate": "2025-08-22T12:00:00.000Z",
+    "returned": false,
+    "rewound": false
+  },
+  {
+    "id": "rental-006",
+    "userId": "u002-sample-user-2",
+    "movieId": "2",
+    "movieTitle": "The Breakfast Club",
+    "rentDate": "2025-01-10T11:15:00.000Z",
+    "dueDate": "2025-01-17T11:15:00.000Z",
+    "returned": true,
+    "rewound": true,
+    "returnDate": "2025-01-16T10:45:00.000Z"
+  },
+  {
+    "id": "rental-007",
+    "userId": "u002-sample-user-2",
+    "movieId": "14",
+    "movieTitle": "16 Candles",
+    "rentDate": "2025-02-05T13:30:00.000Z",
+    "dueDate": "2025-02-12T13:30:00.000Z",
+    "returned": true,
+    "rewound": true,
+    "returnDate": "2025-02-11T16:20:00.000Z"
+  },
+  {
+    "id": "rental-008",
+    "userId": "u002-sample-user-2",
+    "movieId": "38",
+    "movieTitle": "The Princess Bride",
+    "rentDate": "2025-08-01T10:00:00.000Z",
+    "dueDate": "2025-08-08T10:00:00.000Z",
+    "returned": true,
+    "rewound": true,
+    "returnDate": "2025-08-07T19:30:00.000Z"
+  },
+  {
+    "id": "rental-009",
+    "userId": "u003-sample-user-3",
+    "movieId": "23",
+    "movieTitle": "A Nightmare on Elm Street",
+    "rentDate": "2024-12-01T20:30:00.000Z",
+    "dueDate": "2024-12-08T20:30:00.000Z",
+    "returned": true,
+    "rewound": false,
+    "returnDate": "2024-12-12T22:15:00.000Z"
+  },
+  {
+    "id": "rental-010",
+    "userId": "u003-sample-user-3",
+    "movieId": "12",
+    "movieTitle": "The Shining",
+    "rentDate": "2025-01-20T21:00:00.000Z",
+    "dueDate": "2025-01-27T21:00:00.000Z",
+    "returned": true,
+    "rewound": false,
+    "returnDate": "2025-02-02T23:45:00.000Z"
+  },
+  {
+    "id": "rental-011",
+    "userId": "u003-sample-user-3",
+    "movieId": "37",
+    "movieTitle": "Fatal Attraction",
+    "rentDate": "2025-03-15T19:45:00.000Z",
+    "dueDate": "2025-03-22T19:45:00.000Z",
+    "returned": true,
+    "rewound": true,
+    "returnDate": "2025-03-25T20:30:00.000Z"
+  },
+  {
+    "id": "rental-012",
+    "userId": "u003-sample-user-3",
+    "movieId": "46",
+    "movieTitle": "The Fly",
+    "rentDate": "2025-07-10T22:00:00.000Z",
+    "dueDate": "2025-07-17T22:00:00.000Z",
+    "returned": true,
+    "rewound": false,
+    "returnDate": "2025-07-20T01:30:00.000Z"
+  },
+  {
+    "id": "366df3e6-730b-442a-8788-f2eea16adf9f",
+    "userId": "4b611f29-7af7-4e94-8419-8cea053a9242",
+    "movieId": "7",
+    "movieTitle": "E.T. the Extra-Terrestrial",
+    "rentDate": "2025-08-21T21:53:14.192Z",
+    "dueDate": "2025-08-28T21:53:14.192Z",
+    "returned": false,
+    "rewound": false
+  },
+  {
+    "id": "4c3a755a-0f5d-42c1-bc71-07b6ac1bd365",
+    "userId": "4b611f29-7af7-4e94-8419-8cea053a9242",
+    "movieId": "A001",
+    "movieTitle": "Debbie Does Dallas",
+    "rentDate": "2025-08-21T21:53:35.275Z",
+    "dueDate": "2025-08-28T21:53:35.275Z",
+    "returned": false,
+    "rewound": false
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "4b611f29-7af7-4e94-8419-8cea053a9242",
+    "username": "Eitan",
+    "email": "SALT1985_abar@tznvy.pbz",
+    "password": "SALT1985_abarOYBPXOHFGRE1985",
+    "registrationDate": "2025-08-21T21:42:48.038Z",
+    "rentalHistory": [
+      "96b97b93-faa1-4f28-bddd-7654b6def7eb",
+      "366df3e6-730b-442a-8788-f2eea16adf9f",
+      "4c3a755a-0f5d-42c1-bc71-07b6ac1bd365"
+    ],
+    "feedback": {
+      "overdueReturns": 0,
+      "notRewound": 1,
+      "lateReturns": 0,
+      "totalRentals": 3
+    }
+  },
+  {
+    "id": "u001-sample-user-1",
+    "username": "MovieBuff87",
+    "email": "SALT1985_fnatyr@uzbeiohtf.pbz",
+    "password": "SALT1985_zbivrobknegOYBPXOHFGRE1985",
+    "registrationDate": "2024-12-15T10:30:00.000Z",
+    "rentalHistory": [
+      "rental-001",
+      "rental-002",
+      "rental-003",
+      "rental-004",
+      "rental-005"
+    ],
+    "feedback": {
+      "overdueReturns": 2,
+      "notRewound": 3,
+      "lateReturns": 1,
+      "totalRentals": 12,
+      "warnings": 1
+    },
+    "adminFeedback": [
+      {
+        "id": "feedback-001",
+        "type": "warning",
+        "notes": "Frequent late returns and not rewinding tapes. Please be more considerate of other customers.",
+        "timestamp": "2025-01-10T14:30:00.000Z",
+        "adminUser": "admin"
+      }
+    ]
+  },
+  {
+    "id": "u002-sample-user-2",
+    "username": "RetroFan80s",
+    "email": "SALT1985_egerb@yvire.arg",
+    "password": "SALT1985_evgjbOYBPXOHFGRE1985",
+    "registrationDate": "2025-01-05T16:45:00.000Z",
+    "rentalHistory": [
+      "rental-006",
+      "rental-007",
+      "rental-008"
+    ],
+    "feedback": {
+      "overdueReturns": 0,
+      "notRewound": 0,
+      "lateReturns": 0,
+      "totalRentals": 8,
+      "commendations": 2
+    },
+    "adminFeedback": [
+      {
+        "id": "feedback-002",
+        "type": "commendation",
+        "notes": "Exemplary customer! Always returns movies on time and properly rewound. Thank you!",
+        "timestamp": "2025-02-01T09:15:00.000Z",
+        "adminUser": "admin"
+      },
+      {
+        "id": "feedback-003",
+        "type": "commendation",
+        "notes": "Continues to be an outstanding customer. Recommended for loyalty discount.",
+        "timestamp": "2025-08-15T11:20:00.000Z",
+        "adminUser": "admin"
+      }
+    ]
+  },
+  {
+    "id": "u003-sample-user-3",
+    "username": "NightOwlViewer",
+    "email": "SALT1985_avtug@bjy.pbz",
+    "password": "SALT1985_avtugbjyOYBPXOHFGRE1985",
+    "registrationDate": "2024-11-22T20:00:00.000Z",
+    "rentalHistory": [
+      "rental-009",
+      "rental-010",
+      "rental-011",
+      "rental-012"
+    ],
+    "feedback": {
+      "overdueReturns": 4,
+      "notRewound": 2,
+      "lateReturns": 3,
+      "totalRentals": 15,
+      "warnings": 2
+    },
+    "suspended": true,
+    "suspensionDate": "2025-08-10T13:45:00.000Z",
+    "adminFeedback": [
+      {
+        "id": "feedback-004",
+        "type": "warning",
+        "notes": "Multiple overdue returns. Please return movies on time to avoid late fees.",
+        "timestamp": "2025-03-20T16:30:00.000Z",
+        "adminUser": "admin"
+      },
+      {
+        "id": "feedback-005",
+        "type": "warning",
+        "notes": "Continued pattern of late returns and not rewinding. Final warning before suspension.",
+        "timestamp": "2025-07-15T10:00:00.000Z",
+        "adminUser": "admin"
+      },
+      {
+        "id": "feedback-006",
+        "type": "suspension",
+        "notes": "Account suspended due to repeated violations. Contact management to reinstate account.",
+        "timestamp": "2025-08-10T13:45:00.000Z",
+        "adminUser": "admin"
+      }
+    ]
+  }
+]

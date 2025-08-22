@@ -1,0 +1,514 @@
+[
+  {
+    "id": "1",
+    "title": "Back to the Future",
+    "category": "Sci-Fi",
+    "year": 1985,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "2",
+    "title": "The Breakfast Club",
+    "category": "Drama",
+    "year": 1985,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "3",
+    "title": "Ghostbusters",
+    "category": "Comedy",
+    "year": 1984,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "4",
+    "title": "Ferris Bueller's Day Off",
+    "category": "Comedy",
+    "year": 1986,
+    "available": false,
+    "price": 2.99
+  },
+  {
+    "id": "5",
+    "title": "The Goonies",
+    "category": "Adventure",
+    "year": 1985,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "6",
+    "title": "Blade Runner",
+    "category": "Sci-Fi",
+    "year": 1982,
+    "available": true,
+    "price": 3.99
+  },
+  {
+    "id": "7",
+    "title": "E.T. the Extra-Terrestrial",
+    "category": "Family",
+    "year": 1982,
+    "available": false,
+    "price": 2.99
+  },
+  {
+    "id": "8",
+    "title": "The Terminator",
+    "category": "Action",
+    "year": 1984,
+    "available": true,
+    "price": 3.49
+  },
+  {
+    "id": "9",
+    "title": "Scarface",
+    "category": "Crime",
+    "year": 1983,
+    "available": false,
+    "price": 3.99
+  },
+  {
+    "id": "10",
+    "title": "Raiders of the Lost Ark",
+    "category": "Adventure",
+    "year": 1981,
+    "available": true,
+    "price": 3.49
+  },
+  {
+    "id": "11",
+    "title": "Poltergeist",
+    "category": "Horror",
+    "year": 1982,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "12",
+    "title": "The Shining",
+    "category": "Horror",
+    "year": 1980,
+    "available": true,
+    "price": 3.49
+  },
+  {
+    "id": "13",
+    "title": "Fast Times at Ridgemont High",
+    "category": "Comedy",
+    "year": 1982,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "14",
+    "title": "16 Candles",
+    "category": "Romance",
+    "year": 1984,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "15",
+    "title": "Pretty in Pink",
+    "category": "Romance",
+    "year": 1986,
+    "available": false,
+    "price": 2.99
+  },
+  {
+    "id": "16",
+    "title": "Top Gun",
+    "category": "Action",
+    "year": 1986,
+    "available": true,
+    "price": 3.49
+  },
+  {
+    "id": "17",
+    "title": "Dirty Dancing",
+    "category": "Romance",
+    "year": 1987,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "18",
+    "title": "The Empire Strikes Back",
+    "category": "Sci-Fi",
+    "year": 1980,
+    "available": true,
+    "price": 3.99
+  },
+  {
+    "id": "19",
+    "title": "Return of the Jedi",
+    "category": "Sci-Fi",
+    "year": 1983,
+    "available": true,
+    "price": 3.99
+  },
+  {
+    "id": "20",
+    "title": "Flashdance",
+    "category": "Musical",
+    "year": 1983,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "21",
+    "title": "Footloose",
+    "category": "Musical",
+    "year": 1984,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "22",
+    "title": "Purple Rain",
+    "category": "Musical",
+    "year": 1984,
+    "available": false,
+    "price": 3.49
+  },
+  {
+    "id": "23",
+    "title": "A Nightmare on Elm Street",
+    "category": "Horror",
+    "year": 1984,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "24",
+    "title": "Friday the 13th",
+    "category": "Horror",
+    "year": 1980,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "25",
+    "title": "Gremlins",
+    "category": "Comedy",
+    "year": 1984,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "26",
+    "title": "Indiana Jones and the Temple of Doom",
+    "category": "Adventure",
+    "year": 1984,
+    "available": true,
+    "price": 3.49
+  },
+  {
+    "id": "27",
+    "title": "Beverly Hills Cop",
+    "category": "Action",
+    "year": 1984,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "28",
+    "title": "Karate Kid",
+    "category": "Drama",
+    "year": 1984,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "29",
+    "title": "Big",
+    "category": "Family",
+    "year": 1988,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "30",
+    "title": "Coming to America",
+    "category": "Comedy",
+    "year": 1988,
+    "available": false,
+    "price": 2.99
+  },
+  {
+    "id": "31",
+    "title": "Beetlejuice",
+    "category": "Comedy",
+    "year": 1988,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "32",
+    "title": "Die Hard",
+    "category": "Action",
+    "year": 1988,
+    "available": true,
+    "price": 3.49
+  },
+  {
+    "id": "33",
+    "title": "Rain Man",
+    "category": "Drama",
+    "year": 1988,
+    "available": true,
+    "price": 3.49
+  },
+  {
+    "id": "34",
+    "title": "Wall Street",
+    "category": "Drama",
+    "year": 1987,
+    "available": true,
+    "price": 3.49
+  },
+  {
+    "id": "35",
+    "title": "Predator",
+    "category": "Action",
+    "year": 1987,
+    "available": true,
+    "price": 3.49
+  },
+  {
+    "id": "36",
+    "title": "Robocop",
+    "category": "Action",
+    "year": 1987,
+    "available": true,
+    "price": 3.49
+  },
+  {
+    "id": "37",
+    "title": "Fatal Attraction",
+    "category": "Thriller",
+    "year": 1987,
+    "available": true,
+    "price": 3.49
+  },
+  {
+    "id": "38",
+    "title": "The Princess Bride",
+    "category": "Adventure",
+    "year": 1987,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "39",
+    "title": "Spaceballs",
+    "category": "Comedy",
+    "year": 1987,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "40",
+    "title": "Short Circuit",
+    "category": "Family",
+    "year": 1986,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "41",
+    "title": "Aliens",
+    "category": "Sci-Fi",
+    "year": 1986,
+    "available": true,
+    "price": 3.99
+  },
+  {
+    "id": "42",
+    "title": "Platoon",
+    "category": "War",
+    "year": 1986,
+    "available": true,
+    "price": 3.49
+  },
+  {
+    "id": "43",
+    "title": "The Color of Money",
+    "category": "Drama",
+    "year": 1986,
+    "available": false,
+    "price": 3.49
+  },
+  {
+    "id": "44",
+    "title": "Highlander",
+    "category": "Fantasy",
+    "year": 1986,
+    "available": true,
+    "price": 3.49
+  },
+  {
+    "id": "45",
+    "title": "Big Trouble in Little China",
+    "category": "Action",
+    "year": 1986,
+    "available": true,
+    "price": 3.49
+  },
+  {
+    "id": "46",
+    "title": "The Fly",
+    "category": "Horror",
+    "year": 1986,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "47",
+    "title": "Stand by Me",
+    "category": "Drama",
+    "year": 1986,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "48",
+    "title": "Labyrinth",
+    "category": "Fantasy",
+    "year": 1986,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "49",
+    "title": "The NeverEnding Story",
+    "category": "Fantasy",
+    "year": 1984,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "50",
+    "title": "Conan the Barbarian",
+    "category": "Fantasy",
+    "year": 1982,
+    "available": true,
+    "price": 3.49
+  },
+  {
+    "id": "51",
+    "title": "48 Hrs.",
+    "category": "Action",
+    "year": 1982,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "52",
+    "title": "An Officer and a Gentleman",
+    "category": "Romance",
+    "year": 1982,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "53",
+    "title": "Tootsie",
+    "category": "Comedy",
+    "year": 1982,
+    "available": true,
+    "price": 2.99
+  },
+  {
+    "id": "54",
+    "title": "The Thing",
+    "category": "Horror",
+    "year": 1982,
+    "available": false,
+    "price": 3.49
+  },
+  {
+    "id": "55",
+    "title": "First Blood",
+    "category": "Action",
+    "year": 1982,
+    "available": true,
+    "price": 3.49
+  },
+  {
+    "id": "A001",
+    "title": "Debbie Does Dallas",
+    "category": "Adult",
+    "year": 1978,
+    "available": false,
+    "price": 4.99,
+    "ageRestricted": true
+  },
+  {
+    "id": "A002",
+    "title": "Behind the Green Door",
+    "category": "Adult",
+    "year": 1972,
+    "available": true,
+    "price": 4.99,
+    "ageRestricted": true
+  },
+  {
+    "id": "A003",
+    "title": "Deep Throat",
+    "category": "Adult",
+    "year": 1972,
+    "available": false,
+    "price": 4.99,
+    "ageRestricted": true
+  },
+  {
+    "id": "A004",
+    "title": "The Devil in Miss Jones",
+    "category": "Adult",
+    "year": 1973,
+    "available": true,
+    "price": 4.99,
+    "ageRestricted": true
+  },
+  {
+    "id": "A005",
+    "title": "Talk Dirty to Me",
+    "category": "Adult",
+    "year": 1980,
+    "available": true,
+    "price": 4.99,
+    "ageRestricted": true
+  },
+  {
+    "id": "A006",
+    "title": "Taboo",
+    "category": "Adult",
+    "year": 1980,
+    "available": false,
+    "price": 4.99,
+    "ageRestricted": true
+  },
+  {
+    "id": "A007",
+    "title": "Insatiable",
+    "category": "Adult",
+    "year": 1980,
+    "available": true,
+    "price": 4.99,
+    "ageRestricted": true
+  },
+  {
+    "id": "A008",
+    "title": "Naughty Nurses",
+    "category": "Adult",
+    "year": 1983,
+    "available": true,
+    "price": 4.99,
+    "ageRestricted": true
+  }
+]
