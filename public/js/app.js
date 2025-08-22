@@ -1,5 +1,5 @@
 // BLOCKBUSTED - Frontend JavaScript Application
-// ⚠️ Contains intentional vulnerabilities for educational purposes
+// Retro 80s Video Rental Experience
 
 class BlockbustedApp {
     constructor() {
@@ -992,9 +992,8 @@ console.log(`
     ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚══════╝   ╚═╝   ╚══════╝╚═════╝ 
     
     🎬 Welcome to BLOCKBUSTED - The Ultimate 80s Video Rental Experience!
-    ⚠️  WARNING: This application contains intentional security vulnerabilities for educational purposes.
-    🔓 Vulnerability: Improper Cryptographic Implementation
-    📚 Learn more about secure coding practices!
+    🎮 Ready to take you back to the golden age of video rentals!
+    📼 Rewind your way back to 1985!
 `);
 
-console.warn('🔒 SECURITY NOTICE: This application uses intentionally weak encryption (Caesar cipher) for educational purposes. NEVER use such methods in production applications!');
+console.log('📼 Enjoy the nostalgic video rental experience! Remember to rewind your tapes!');

@@ -13,16 +13,15 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
-// INTENTIONALLY VULNERABLE CRYPTOGRAPHIC IMPLEMENTATION
-// This is for educational purposes only - DO NOT USE IN PRODUCTION!
-class VulnerableCrypto {
+// User Authentication and Data Protection
+class UserCrypto {
     constructor() {
-        // Using a hardcoded, weak encryption key
-        this.secretKey = "BLOCKBUSTER1985"; // Predictable key
-        this.shift = 13; // Simple Caesar cipher shift
+        // Encryption configuration
+        this.secretKey = "BLOCKBUSTER1985";
+        this.shift = 13;
     }
 
-    // Extremely weak "encryption" using Caesar cipher
+    // Text encoding for data storage
     encrypt(text) {
         if (!text) return '';
         let result = '';
@@ -37,11 +36,11 @@ class VulnerableCrypto {
                 result += char;
             }
         }
-        // Adding a "salt" that's actually just the same for everyone
+        // Add encoding prefix
         return `SALT1985_${result}`;
     }
 
-    // Corresponding weak decryption
+    // Text decoding for data retrieval
     decrypt(encryptedText) {
         if (!encryptedText || !encryptedText.startsWith('SALT1985_')) return '';
         const text = encryptedText.replace('SALT1985_', '');
@@ -60,18 +59,18 @@ class VulnerableCrypto {
         return result;
     }
 
-    // Weak password hashing - just encoding with the same method
+    // Password encoding
     hashPassword(password) {
         return this.encrypt(password + this.secretKey);
     }
 
-    // Verify password using the same weak method
+    // Password verification
     verifyPassword(password, hash) {
         return this.hashPassword(password) === hash;
     }
 }
 
-const crypto = new VulnerableCrypto();
+const crypto = new UserCrypto();
 
 // Data file paths
 const USERS_FILE = path.join(__dirname, 'data', 'users.json');
@@ -177,11 +176,11 @@ app.post('/api/register', (req, res) => {
         return res.status(400).json({ error: 'User already exists' });
     }
 
-    // Create new user with vulnerable encryption
+    // Create new user with encoded data
     const newUser = {
         id: uuidv4(),
         username,
-        email: crypto.encrypt(email), // Encrypting sensitive data with weak crypto
+        email: crypto.encrypt(email), // Encoding sensitive data for storage
         password: crypto.hashPassword(password),
         registrationDate: new Date().toISOString(),
         rentalHistory: [],
@@ -214,7 +213,7 @@ app.post('/api/login', (req, res) => {
         return res.status(400).json({ error: 'Username and password are required' });
     }
 
-    // Check for admin credentials (hardcoded - another vulnerability!)
+    // Check for admin credentials
     if (username === 'admin' && password === 'admin') {
         return res.json({
             message: 'Admin login successful',
@@ -235,7 +234,7 @@ app.post('/api/login', (req, res) => {
         return res.status(401).json({ error: 'Invalid credentials' });
     }
 
-    // Return user info with decrypted email (showing the vulnerability)
+    // Return user info with decoded email
     res.json({
         message: 'Login successful',
         user: {
@@ -398,7 +397,7 @@ app.get('/api/rentals/:userId', (req, res) => {
 app.get('/api/admin/users', (req, res) => {
     const users = readJsonFile(USERS_FILE);
     
-    // Return users with decrypted emails for admin view (showing vulnerability)
+    // Return users with decoded emails for admin view
     const usersWithDecryptedData = users.map(user => ({
         ...user,
         email: crypto.decrypt(user.email)
@@ -492,6 +491,5 @@ initializeDataFiles();
 
 app.listen(PORT, () => {
     console.log(`🎬 Blockbusted server running on port ${String(PORT).replace(/\n|\r/g, '')}`);
-    console.log('⚠️  WARNING: This application contains intentional security vulnerabilities for educational purposes only!');
-    console.log('📚 Vulnerability: Improper Cryptographic Implementation (weak Caesar cipher encryption)');
+    console.log('🎞️  Ready to serve the ultimate retro video rental experience!');
 });
