@@ -68,7 +68,9 @@ app.get('/', (req, res) => {
 </head>
 <body>
     <header>
-        <h1>🗒️ Bloggerish</h1>
+        <div class="logo">
+            <a href="/"><img src="/logo.jpg" alt="Bloggerish"></a>
+        </div>
         <nav>
             <a href="/">Home</a> | 
             <a href="/new-post">New Post</a>
@@ -118,7 +120,9 @@ app.get('/post/:id', (req, res) => {
 </head>
 <body>
     <header>
-        <h1>🗒️ Bloggerish</h1>
+        <div class="logo">
+            <a href="/"><img src="/logo.jpg" alt="Bloggerish"></a>
+        </div>
         <nav>
             <a href="/">Home</a> | 
             <a href="/new-post">New Post</a>
@@ -167,7 +171,9 @@ app.get('/new-post', (req, res) => {
 </head>
 <body>
     <header>
-        <h1>🗒️ Bloggerish</h1>
+        <div class="logo">
+            <a href="/"><img src="/logo.jpg" alt="Bloggerish"></a>
+        </div>
         <nav>
             <a href="/">Home</a> | 
             <a href="/new-post">New Post</a>
@@ -263,7 +269,9 @@ app.get('/search', (req, res) => {
 </head>
 <body>
     <header>
-        <h1>🗒️ Bloggerish</h1>
+        <div class="logo">
+            <a href="/"><img src="/logo.jpg" alt="Bloggerish"></a>
+        </div>
         <nav>
             <a href="/">Home</a> | 
             <a href="/new-post">New Post</a>
